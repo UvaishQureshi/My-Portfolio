@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="main">
+      <div id="image">
+        <img src="photo.jpg" alt="Photo">
+      </div>
+      <h2>
+        Mohammad Uvaish
+      </h2>
+      <hr />
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('About' ,'flex')">
+          <span>My Self</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('personalInformation','flex')">
+          <span>Personal Information</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('Qualification','flex')">
+          <span>Academic Qualification</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('Skills','flex')">
+          <span>Other Qualification</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('goal','flex')">
+          <span>Coding Experiences</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div class="info-border">
+        <button class="info" onclick="showMyself('CodeYogi','flex')">
+          <span>CodeYogi Experiences</span>
+          <span>+</span>
+        </button>
+      </div>
+      
+      <div id="About">
+        <h4>
+          My self
+        </h4>
+        <ul>
+          <li>
+            <span>Name: - </span> Mohammad Uvaish
+          </li>
+          <hr />
+          <li>
+            <span>Father's Name: - </span> Mohammad Israr
+          </li>
+          <hr />
+          <li>
+            <span>College Name:</span> Shriram Group Of Colleges
+          </li>
+          <hr />
+          <li>
+            <span>School Name:</span> Holy Child Inter College
+          </li>
+          <hr />
+          <li>
+            <span>Location :</span> Dehradun Uttarakhand
+          </li>
+          <hr />
+        </ul>
+        <div class="BUTTON">
+          <button onclick="showMyself('About','none')">
+            Close
+          </button>
+        </div>
+      </div>
+      
+      <div id="personalInformation">
+        <h4>
+          Personal Information
+        </h4>
+        <ul>
+          <li>
+            <span>DOB: - </span> 12 March 2003
+          </li>
+          <hr />
+          <li>
+            <span>Gender: - </span> Male
+          </li>
+          <hr />
+          <li>
+            <span>Nationality: - </span>Indian
+          </li>
+          <hr />
+          <li>
+            <span>Marital status: - </span> Single
+          </li>
+          <hr />
+          <li>
+            <span> Language : - </span> Hindi, English
+          </li>
+          <hr />
+        </ul>
+        <div class="BUTTON">
+          <button onclick="showMyself('personalInformation','none')">
+            Close
+          </button>
+        </div>
+      </div>
+      <div id="Qualification">
+        <h4>
+          Qualification
+        </h4>
+        <ul>
+          <li>
+            <span>10th :-</span>Uttarakhand Board
+          </li>
+          <hr />
+          <li>
+            <span>12th :-</span>Uttar Pradesh Board
+          </li>
+          <hr />
+          <li>
+            <span>B.C.A :-</span>Shriram Group Of Colleges
+          </li>
+          <hr />
+        </ul>
+        <h4>
+          Currently B.C.A 1st <br />Year Student
+        </h4>
+        <div class="BUTTON">
+          <button onclick="showMyself('Qualification','none')">
+            Close
+          </button>
+        </div>
+      </div>
+      <div id="Skills">
+        <h4>
+          Skills
+        </h4>
+        <ul>
+          <li>
+            Basic Knowledge of computer <br />
+            <span>view certificate 》》》</span> <a href="Basic.jpg"><img src="Basic.jpg" /></a>
+          </li>
+          <hr />
+          <li>Basic knowledge of web development <br />
+            <span>view certificate 》》》</span> <a href="Codeyogi.jpg"><img src="Codeyogi.jpg" /></a>
+          </li>
+          <hr />
+        </ul>
+        <div class="BUTTON">
+          <button onclick="showMyself('Skills','none')">
+            Close
+          </button>
+        </div>
+      </div>
+      <div id="goal">
+        <h4>
+          Experiences
+        </h4>
+        <ul>
+          <li>
+            <span>My Coding Experiences</span><br />
+            CodeYogi Introduced me to coding. I began coding 13 June 2025. First, I learnt HTML, CSS and then Javascript.
+            
+            HTML's job is to display the code on the screen, CSS's job is to decorate the code, and Javascript's job is to edit the code. I code on my phone.
+            
+          </li>
+          <hr />
+        </ul>
+        <div class="BUTTON">
+          <button onclick="showMyself('goal','none')">
+            Close
+          </button>
+        </div>
+      </div>
+      <div id="CodeYogi">
+        <h4>
+          CodeYogi Experiences
+        </h4>
+        <ul>
+          <li> <span>CodeYogi</span> <br />
+            I Join CodeYogi on 13 June 2025. My School introduced me to code yogi. I learnt HTML, CSS and JavaScript. My Experience with code Yogi was Excellent and code Yogi taught me a lot and I will remain associated with code Yogi in future as well.
+          </li>
+          <hr />
+        </ul>
+        <div class="BUTTON">
+          <button onclick="showMyself('CodeYogi','none')">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
